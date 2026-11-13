@@ -18,4 +18,10 @@ function curtir (){
 }
 );
 
+onst btnTema = document.querySelector(".btn-tema");
+btnTema.addEventListener("click,mudar tema");
+function mudar tema(){
+  document.body.classList.toggle("tema-escuro");
+  
+}
 
